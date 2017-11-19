@@ -1,0 +1,41 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("kantai-collection.com"){
+  div[class="blogroll-channel"],
+  div[class="antennash_imglink"],
+  div[id="main"],
+  iframe{
+    display: none !important;
+  }
+}
+
+
+@-moz-document domain("akankore.doorblog.jp") {
+  div[class="rss_wrapper"],
+  div[class="blogroll-channel"],
+  div[class="listWithImage"],
+  div[id="button-wrapper"],
+  div[id="rsss"]{
+    display: none !important;
+  }
+}
+
+@-moz-document domain("kancolle.doorblog.jp") {
+  center, 
+  div[id="blogroll-218506"],
+  div[id="blogroll-80888"]{
+    display: none !important;
+  }
+}
+
+
+
+@-moz-document domain("kanmsu.com") {
+ div[id="side"], 
+ div[class="am1"],
+  div[class="related"],
+  div[class="comment"],
+  div[id="footer"]{
+    display: none !important;
+  }
+}

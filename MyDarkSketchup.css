@@ -1,0 +1,9 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("sketchuptextureclub.com") {
+  div[class="cslider1 pageslider"],
+  div[class="share"],
+  div[class="dx shareb"]{
+    display:  none !important;
+  }
+}
